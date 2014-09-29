@@ -67,6 +67,7 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-context-support-4.1.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-instrument-4.1.0.RELEASE-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-instrument-tomcat-4.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ruframework-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
