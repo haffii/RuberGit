@@ -429,17 +429,31 @@
       <workItem from="1411921706050" duration="6047000" />
       <workItem from="1411989926519" duration="1015000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1411992639888" duration="8000" />
 =======
       <workItem from="1411992209524" duration="235000" />
       <workItem from="1411992556004" duration="9000" />
+>>>>>>> origin/master
+=======
+      <workItem from="1411992209524" duration="235000" />
+      <workItem from="1411992556004" duration="156000" />
+=======
+>>>>>>> parent of 1a25e50... Testing, testing
 >>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8705000" />
+=======
+    <option name="totallyTimeSpent" value="9088000" />
+=======
+    <option name="totallyTimeSpent" value="8697000" />
+>>>>>>> parent of 1a25e50... Testing, testing
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
