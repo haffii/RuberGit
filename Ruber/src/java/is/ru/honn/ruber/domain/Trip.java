@@ -21,4 +21,5 @@ public class Trip {
         this.start_time = start_time;
         this.end_time = end_time;
     }
+
 }

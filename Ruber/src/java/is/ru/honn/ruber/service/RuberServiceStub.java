@@ -12,12 +12,13 @@ import java.util.List;
 
 public class RuberServiceStub extends RuObject implements RuberService
 {
+    private History myHistory = new History();
+    private List<User> myUsers = null;
   @Override
   public List getProducts(double latitude, double longitude) throws ServiceException
   {
     JSONParser parser = new JSONParser();
     List productList = new ArrayList();
-
     try
     {
       JSONObject json = (JSONObject) parser.parse(new FileReader("products.json"));
@@ -59,4 +60,29 @@ public class RuberServiceStub extends RuObject implements RuberService
     return priceList;
   }
 
+ public void addTrip(Trip trip){
+    myHistory.addTrip(trip);
+}
+ public List<Trip> getHistory(String uuid){
+       return myHistory.getTrips(uuid);
+    }
+ public void signup(User user){
+     myUsers.add(user);
+ }
+ public List<User>getUsers(){
+     return myUsers;
+ }
+ public User getUser(String uuid){
+     User tempUser = null;
+     for(int i = 0; i <myUsers.size();i++){
+         if(myUsers.get(i).getUuid() == uuid){
+           tempUser = myUsers.get(i);
+             break;
+         }
+     }
+     if(tempUser == null) {
+         //throw user not found exception
+     }
+    return tempUser;
+ }
 }
